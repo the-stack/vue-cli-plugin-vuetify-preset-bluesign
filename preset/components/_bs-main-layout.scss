@@ -1,0 +1,115 @@
+$body-font-family: 'Myriad Pro', 'PT Sans', sans-serif !important;
+$heading-font-family: 'Myriad Pro', 'PT Sans', sans-serif !important;
+$font-size-root: 17px;
+$line-height-root: 1.7;
+$border-radius-root: 2px;
+
+$headings: (
+    'h1': (
+        'size': 1rem,
+        'weight': 700,
+        'line-height': 2rem,
+        'font-family': $heading-font-family,
+    ),
+    'h2': (
+        'size': 1rem,
+        'weight': 700,
+        'line-height': 1.7rem,
+        'font-family': $heading-font-family,
+    ),
+    'h3':(
+        'size': 1rem,
+        'weight': 700,
+        'line-height': 1.7rem,
+        'font-family': $heading-font-family,
+    ),
+    'h4': (
+        'size': 1.625rem,
+        'weight': 700,
+        'line-height': 1.7rem,
+        'font-family': $heading-font-family,
+    ),
+    'h5': (
+        'size': 1rem,
+        'weight': 700,
+        'line-height': 1.7rem,
+        'font-family': $heading-font-family,
+    ),
+    'h6': (
+        'size': 1rem,
+        'weight': 700,
+        'line-height': 1.7rem,
+        'font-family': $heading-font-family,
+    ),
+    'subtitle-1': (
+        'size': 0.875rem,
+        'weight': 700,
+        'line-height': 1.7rem,
+        'font-family': $heading-font-family,
+    ),
+    'subtitle-2': (
+        'size': 0.875rem,
+        'weight': 400,
+        'line-height': 1.7rem,
+        'font-family': $heading-font-family,
+    )
+);
+
+.toolbar-icon.v-icon.v-icon {
+  font-size: 3rem;
+}
+.no-data-icon.v-icon.v-icon {
+  font-size: 80px;
+}
+
+.bs-font-size {
+  &--0-8x {
+    font-size: 0.8rem !important;
+  }
+  &--0-8x .v-label {
+    font-size: 0.8rem !important;
+  }
+  &--1x {
+    font-size: 1rem !important;
+  }
+  &--1x .v-label {
+    font-size: 1rem !important;
+  }
+  &--1-5x {
+    font-size: 1.5rem !important;
+  }
+  &--1-5x .v-label {
+    font-size: 1.5rem !important;
+  }
+  &--2x {
+    font-size: 2rem !important;
+  }
+  &--2x .v-label {
+    font-size: 2rem !important;
+  }
+  &--3x {
+    font-size: 3rem !important;
+  }
+  &--3x .v-label {
+    font-size: 3rem !important;
+  }
+}
+
+strong {
+  font-weight: 700;
+}
+
+.cursor--pointer {
+  cursor: pointer;
+}
+
+.bs-border{
+  &--left {
+    border-left: 1px solid rgba($bsFontColor, 0.2);
+  }
+  &--sm-left{
+    @media all and (min-width: 470px){
+      border-left: 1px solid rgba($bsFontColor, 0.2);
+    }
+  }
+}

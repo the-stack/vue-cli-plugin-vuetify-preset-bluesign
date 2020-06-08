@@ -1,0 +1,16 @@
+$material-light: (
+        'text-color': $bsFontColor,
+        'fg-color': $bsFontColor,
+        'background': $negative,
+        'dividers': rgba($primary, 0.38),
+        'text': (
+                'primary': rgba($bsFontColor, 1),
+                'secondary': rgba($secondary, 1),
+                'disabled': rgba($bsFontColor, 0.7),
+                'link': $secondary,
+                'link-hover': $primary,
+        ),
+        'text-fields':(
+                'outlined': rgba($secondary, 1)
+        )
+);

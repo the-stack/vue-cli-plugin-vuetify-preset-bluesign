@@ -1,0 +1,151 @@
+/* bluesign Icon Font */
+
+/*
+  note: this font uses ligatures for rendering the glyph
+  still, there are the old ones from dachcom digital
+*/
+
+@font-face {
+  font-family: 'bi';
+  src:  url('font/bs-iconfont.eot');
+  src:  url('font/bs-iconfont.eot?iefix') format('embedded-opentype'),
+  url('font/bs-iconfont.woff2') format('woff2'),
+  url('font/bs-iconfont.ttf') format('truetype'),
+  url('font/bs-iconfont.woff') format('woff'),
+  url('font/bs-iconfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="bi-"], [class*=" bi-"], .icomoon-liga, [type="checkbox"]:not(.onoffswitch-checkbox)+ label:before , [type="radio"] + label:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'bi' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.bi-bluesign:before {
+  content: "\e916";
+}
+.bi-assessment:before {
+  content: "\e90e";
+}
+.bi-assessment-inv:before {
+  content: "\e90f";
+}
+.bi-system:before {
+  content: "\e910";
+}
+.bi-system-inv:before {
+  content: "\e911";
+}
+.bi-bluefinder:before {
+  content: "\e901";
+}
+.bi-bluefinder-inv:before {
+  content: "\e900";
+}
+.bi-blueguide:before {
+  content: "\e909";
+}
+.bi-blueguide-inv:before {
+  content: "\e912";
+}
+.bi-bluetool:before {
+  content: "\e90c";
+}
+.bi-bluetool-inv:before {
+  content: "\e913";
+}
+.bi-bluexpert:before {
+  content: "\e90a";
+}
+.bi-bluexpert-inv:before {
+  content: "\e906";
+}
+.bi-chemicalinventory:before {
+  content: "\e90d";
+}
+.bi-chemicalinventory-inv:before {
+  content: "\e907";
+}
+.bi-systempartner:before {
+  content: "\e914";
+}
+.bi-systempartner-inv:before {
+  content: "\e915";
+}
+.bi-disclaimer:before {
+  content: "\e902";
+}
+.bi-downloads:before {
+  content: "\e917";
+}
+.bi-download-inv:before {
+  content: "\e94c";
+}
+.bi-help:before {
+  content: "\e903";
+}
+.bi-chemicalproduct-inv:before {
+  content: "\e904";
+}
+.bi-erlenmeier-inv:before {
+  content: "\e905";
+}
+.bi-favorites:before {
+  content: "\e90b";
+}
+.bi-favorites-inv:before {
+  content: "\e908";
+}
+.bi-productstewardship:before {
+  content: "\e918";
+}
+.bi-productstewardship-inv:before {
+  content: "\e919";
+}
+.bi-brands:before {
+  content: "\e91a";
+}
+.bi-brands-inv:before {
+  content: "\e91b";
+}
+.bi-manufacturer:before {
+  content: "\e91c";
+}
+.bi-manufacturer-inv:before {
+  content: "\e91d";
+}
+.bi-material_negativ:before {
+  content: "\e94b";
+}
+.bi-cloud_inv:before {
+  content: "\e94e";
+}
+.bi-cloud:before {
+  content: "\e962";
+}
+.bi-db-arrow-up:before {
+  content: "\e967";
+}

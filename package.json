@@ -1,0 +1,9 @@
+{
+  "name": "bluesign-vuetify",
+  "version": "0.1.5",
+  "author": "the-stack",
+  "private": true,
+  "dependencies": {
+    "@vuetify/cli-plugin-utils": "^0.0.7"
+  }
+}
