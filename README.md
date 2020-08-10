@@ -14,13 +14,12 @@ created by the Stack
 ### package.json
 add the following lines to your dependencies:
 
-`"@mdi/font": "^4.8.95",`
-
+`"@mdi/font": "^4.8.95",`  
 `"material-design-icons-iconfont": "^5.0.1",`
 
 add the following line to your dev-dependencies:
 
-`"vue-cli-plugin-vuetify-preset-bluesign": "git+http://10.7.12.10:3000/theStack/vue-cli-plugin-vuetify-preset-bluesign",`
+`"vue-cli-plugin-vuetify-preset-bluesign": "git+ssh://git@156.67.38.189:theStack/vue-cli-plugin-vuetify-preset-bluesign.git",`
 
 run `yarn install`
 
