@@ -2,7 +2,7 @@
   "name": "vue-cli-plugin-vuetify-preset-bluesign",
   "version": "1.0.1",
   "author": "the-stack",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@vuetify/cli-plugin-utils": "^0.0.7"
   }

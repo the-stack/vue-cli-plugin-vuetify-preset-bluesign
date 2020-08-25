@@ -1,7 +1,9 @@
 # bluesign Vuetify preset plugin
-Custom Vuetify Preset for bluesign technology ag
+Custom Vuetify Preset for bluesign technology ag. 
 
-created by the Stack
+**Note: this is a private project and ONLY runs on bluesign applications!** 
+
+created by the Stack, 2020
 
 ## 1,2,3... usage
 
@@ -51,3 +53,6 @@ import `{ preset } from 'vue-cli-plugin-vuetify-preset-bluesign/preset'`
 
 
 Happy coding!
+
+# TODO
+Move back to npm, delete repo and make a fresh git history :-)
