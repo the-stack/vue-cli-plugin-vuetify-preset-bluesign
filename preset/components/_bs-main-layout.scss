@@ -58,16 +58,46 @@ $headings: (
 .toolbar-icon.v-icon.v-icon {
   font-size: 3rem;
 }
+.bs-toolbar {
+  &.theme--light.v-sheet {
+    border-bottom: 1px solid $primary !important;
+  }
+
+  & > .v-toolbar__content {
+    max-width: 100%;
+    margin: 0 auto;
+    @media all and (min-width: 960px) {
+      max-width: 900px;
+    }
+    @media all and (min-width: 1264px) {
+      max-width: 1185px;
+    }
+
+    .v-toolbar {
+      .v-toolbar__content {
+        border-bottom: 1px solid $primary !important;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 0;
+      }
+    }
+  }
+}
 .no-data-icon.v-icon.v-icon {
   font-size: 80px;
 }
-
 .bs-font-size {
   &--0-8x {
     font-size: 0.8rem !important;
   }
   &--0-8x .v-label {
     font-size: 0.8rem !important;
+  }
+  &--0-9x {
+    font-size: 0.9rem !important;
+  }
+  &--0-9x .v-label {
+    font-size: 0.9rem !important;
   }
   &--1x {
     font-size: 1rem !important;
@@ -94,15 +124,23 @@ $headings: (
     font-size: 3rem !important;
   }
 }
-
 strong {
   font-weight: 700;
 }
-
 .cursor--pointer {
   cursor: pointer;
 }
-
+.body-tr__cursor--pointer {
+  tbody {
+    tr {
+      cursor: pointer;
+    }
+  }
+}
+.scroll {
+  height: 100px;
+  overflow-y: scroll;
+}
 .bs-border{
   &--left {
     border-left: 1px solid rgba($bsFontColor, 0.2);
@@ -112,4 +150,16 @@ strong {
       border-left: 1px solid rgba($bsFontColor, 0.2);
     }
   }
+}
+.bs-newline {
+  white-space: pre-wrap;
+}
+.footer__img {
+  display: inline-block;
+  position: relative;
+  top: 9px;
+  padding: 0 0 0 1.5rem;
+}
+.bs-no-append-margin .v-input__append-inner {
+  margin-top: 10px !important;
 }

@@ -51,6 +51,11 @@ import `{ preset } from 'vue-cli-plugin-vuetify-preset-bluesign/preset'`
         iconfont: 'md'||'mdi'||'bi',
     },
 
+**changes**
+
+push into
+1) git@github.com:the-stack/vue-cli-plugin-vuetify-preset-bluesign.git
+2) git@156.67.38.189:theStack/vue-cli-plugin-vuetify-preset-bluesign.git
 
 Happy coding!
 
