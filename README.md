@@ -21,7 +21,7 @@ add the following lines to your dependencies:
 
 add the following line to your dev-dependencies:
 
-`"vue-cli-plugin-vuetify-preset-bluesign": "git+ssh://git@156.67.38.189:theStack/vue-cli-plugin-vuetify-preset-bluesign.git",`
+`"vue-cli-plugin-vuetify-preset-bluesign": "^1.0.2",`
 
 run `yarn install`
 
@@ -52,10 +52,6 @@ import `{ preset } from 'vue-cli-plugin-vuetify-preset-bluesign/preset'`
     },
 
 **changes**
-
-push into
-1) git@github.com:the-stack/vue-cli-plugin-vuetify-preset-bluesign.git
-2) git@156.67.38.189:theStack/vue-cli-plugin-vuetify-preset-bluesign.git
 
 Happy coding!
 
