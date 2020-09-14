@@ -1,7 +1,9 @@
 # bluesign Vuetify preset plugin
-Custom Vuetify Preset for bluesign technology ag
+Custom Vuetify Preset for bluesign technology ag. 
 
-created by the Stack
+**Note: this is a private project and ONLY runs on bluesign applications!** 
+
+created by the Stack, 2020
 
 ## 1,2,3... usage
 
@@ -19,7 +21,7 @@ add the following lines to your dependencies:
 
 add the following line to your dev-dependencies:
 
-`"vue-cli-plugin-vuetify-preset-bluesign": "git+ssh://git@156.67.38.189:theStack/vue-cli-plugin-vuetify-preset-bluesign.git",`
+`"vue-cli-plugin-vuetify-preset-bluesign": "^1.0.2",`
 
 run `yarn install`
 
@@ -51,8 +53,7 @@ import `{ preset } from 'vue-cli-plugin-vuetify-preset-bluesign/preset'`
 
 **changes**
 
-push into
-1) git@github.com:the-stack/vue-cli-plugin-vuetify-preset-bluesign.git
-2) git@156.67.38.189:theStack/vue-cli-plugin-vuetify-preset-bluesign.git
-
 Happy coding!
+
+# TODO
+Move back to npm, delete repo and make a fresh git history :-)
