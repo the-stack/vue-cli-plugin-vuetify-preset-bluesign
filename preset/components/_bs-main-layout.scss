@@ -54,6 +54,13 @@ $headings: (
         'font-family': $heading-font-family,
     )
 );
+$grid-breakpoints:(
+        'xs': 0,
+        'sm': 600px,
+        'md': 960px,
+        'lg': 1280px - 16px,
+        'xl': 1280px - 16px
+);
 
 .toolbar-icon.v-icon.v-icon {
   font-size: 3rem;
@@ -67,15 +74,14 @@ $headings: (
     max-width: 100%;
     margin: 0 auto;
     @media all and (min-width: 960px) {
-      max-width: 900px;
+      max-width: 960px;
     }
     @media all and (min-width: 1264px) {
-      max-width: 1185px;
+      max-width: 1280px - 16px;
     }
 
     .v-toolbar {
       .v-toolbar__content {
-        border-bottom: 1px solid $primary !important;
         align-items: flex-end;
         justify-content: center;
         padding: 0;
