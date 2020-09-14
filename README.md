@@ -21,7 +21,7 @@ add the following lines to your dependencies:
 
 add the following line to your dev-dependencies:
 
-`"vue-cli-plugin-vuetify-preset-bluesign": "^1.0.2",`
+`"vue-cli-plugin-vuetify-preset-bluesign": "^1.0.3",`
 
 run `yarn install`
 
