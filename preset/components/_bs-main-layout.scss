@@ -3,6 +3,16 @@ $heading-font-family: 'PT Sans', sans-serif !important;
 $font-size-root: 17px;
 $line-height-root: 1.7;
 $border-radius-root: 2px;
+$shadow-key-ambient-opacity: rgba(#003374, 0.12);
+$shadow-key-penumbra-opacity: rgba(#003374, 0.14);
+$shadow-key-umbra-opacity: rgba(#003374, 0.05);
+
+$container-max-widths:(
+        'md': map-get($grid-breakpoints, 'md') * 1,
+        'lg': map-get($grid-breakpoints, 'lg') * 1,
+        'xl': map-get($grid-breakpoints, 'xl') * 1,
+);
+$container-padding-x:10px;
 
 $headings: (
     'h1': (

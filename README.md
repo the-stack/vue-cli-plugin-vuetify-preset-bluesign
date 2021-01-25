@@ -1,6 +1,9 @@
 # bluesign Vuetify preset plugin
 Custom Vuetify Preset for bluesign technology ag. 
 
+# Branch: v2
+Preset for vuetify-version > 2.4.2
+
 **Note: this is a private project and ONLY runs on bluesign applications!** 
 
 created by the Stack, 2020
