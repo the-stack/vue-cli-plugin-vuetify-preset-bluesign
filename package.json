@@ -1,6 +1,10 @@
 {
   "name": "vue-cli-plugin-vuetify-preset-bluesign",
+<<<<<<< HEAD
   "version": "1.2.0",
+=======
+  "version": "1.1.3-v2",
+>>>>>>> 2573445812d4d042f45d581eccb52c32ad6948d8
   "author": "the-stack",
   "private": false,
   "dependencies": {
