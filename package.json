@@ -4,6 +4,6 @@
   "author": "the-stack",
   "private": false,
   "dependencies": {
-    "@vuetify/cli-plugin-utils": "^0.0.7"
+    "@vuetify/cli-plugin-utils": "^0.0.8"
   }
 }

@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@vuetify/cli-plugin-utils@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@vuetify/cli-plugin-utils/-/cli-plugin-utils-0.0.7.tgz#103e0ce504253dbe87bc7fe7e096992beac9bf9b"
-  integrity sha512-34INe4rcsus6ByNgrpIPAyJaTRt1j+5YaMWt2Lh3iDZLn9h69tEp83Imqefze7weRbg+qukJYdnaWDFjFUAf2g==
+"@vuetify/cli-plugin-utils@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@vuetify/cli-plugin-utils/-/cli-plugin-utils-0.0.8.tgz#bb2d169a3ab30529c6f98530c2920a3831f73a48"
+  integrity sha512-LXZ89vUtO0r/zOoCkc9blm3hxKe0EwusLXWHCntk4uHbjHWf57kAK2esyR9tRFPrus2AoSpOP80/XlaYWd+SPg==
   dependencies:
     semver "^7.1.2"
 
