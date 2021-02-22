@@ -44,12 +44,6 @@
 
 }
 
-.bi-bluehsdb:before {
-  content: "\e91f";
-}
-.bi-bluehsdb-inv:before {
-  content: "\e91e";
-}
 .bi-bluesign:before {
   content: "\e916";
 }
@@ -154,4 +148,16 @@
 }
 .bi-db-arrow-up:before {
   content: "\e967";
+}
+.bi-bluehsdb-inv:before {
+  content: "\e91e";
+}
+.bi-bluehsdb:before {
+  content: "\e91f";
+}
+.bi-playlist_search:before {
+  content: "\e920";
+}
+.bi-maschine_inv:before {
+  content: "\e921";
 }
