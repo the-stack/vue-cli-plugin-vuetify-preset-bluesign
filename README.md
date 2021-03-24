@@ -37,6 +37,7 @@ import `'@mdi/font/css/materialdesignicons.css'`
 import `'material-design-icons-iconfont/dist/material-design-icons.css'`
 
 import `'vue-cli-plugin-vuetify-preset-bluesign/assets/_bs-font.scss'`
+import `'vue-cli-plugin-vuetify-preset-bluesign/assets/_bs-material-design-icon-variants.scss'`
 
 **after importing Vue and Vuetify:**
 

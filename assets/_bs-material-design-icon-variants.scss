@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'mdi-sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/MaterialIconsSharp-Regular.otf) format('opentype');
+  src: local('Material Icons Sharp'),
+  local('MaterialIconsSharp-Regular'),
+  url(font/MaterialIconsSharp-Regular.otf) format('opentype');
+}
+
+.mdi-sharp {
+  font-family: 'mdi-sharp';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+@font-face {
+  font-family: 'mdi-twotone';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/MaterialIconsTwoTone-Regular.otf) format('opentype');
+  src: local('Material Icons TwoTone'),
+  local('MaterialIconsTwoTone-Regular'),
+  url(font/MaterialIconsTwoTone-Regular.otf) format('opentype');
+}
+
+.mdi-twotone {
+  font-family: 'mdi-twotone';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+@font-face {
+  font-family: 'mdi-round';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/MaterialIconsRound-Regular.otf) format('opentype');
+  src: local('Material Icons Round'),
+  local('MaterialIconsRound-Regular'),
+  url(font/MaterialIconsRound-Regular.otf) format('opentype');
+}
+
+.mdi-round {
+  font-family: 'mdi-round';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+@font-face {
+  font-family: 'mdi-outline';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/MaterialIconsOutlined-Regular.otf) format('opentype');
+  src: local('Material Icons Outline'),
+  local('MaterialIconsOutlined-Regular'),
+  url(font/MaterialIconsOutlined-Regular.otf) format('opentype');
+}
+
+.mdi-outline {
+  font-family: 'mdi-outline';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
